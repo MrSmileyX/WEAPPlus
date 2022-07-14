@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-mapping>
+	<class name = "ACES_MEM">
+		<property symbolic-name="DocCntlNum" weap-property="dcn" data-type="String" />
+		<property symbolic-name="SYSID" weap-property="systemId" data-type="String" />
+		<property symbolic-name="RouteCode" weap-property="routeCode" data-type="String" />
+		<property symbolic-name="MbrNum" weap-property="memberNumber" data-type="String" />
+		<property symbolic-name="DocType" weap-property="documentType" data-type="String" />
+		<property symbolic-name="SRCID" weap-property="sourceId" data-type="String" />
+		<property symbolic-name="OrigRcptDate" weap-property="origDate" data-type="Date" />
+	</class>
+	<class name = "MW_IDV_MEM">
+		<property symbolic-name="DocCntlNum" weap-property="dcn" data-type="String" />
+		<property symbolic-name="SYSID" weap-property="systemId" data-type="String" />
+		<property symbolic-name="OrigRcptDate" weap-property="origDate" data-type="Date" />
+		<property symbolic-name="DocType" weap-property="documentType" data-type="String" />
+		<property symbolic-name="SRCID" weap-property="sourceId" data-type="String" />
+		<property symbolic-name="AltID" weap-property="altId" data-type="String" />
+		<property symbolic-name="HostDate" weap-property="hostDate" data-type="Date" />
+		<property symbolic-name="INQID" weap-property="trackingNumber" data-type="String" />
+		<property symbolic-name="MbrNum" weap-property="memberNumber" data-type="String" />
+		<property symbolic-name="RegionCode" weap-property="stateCd" data-type="String" />
+		<property symbolic-name="ReturnReason" weap-property="returnReason" data-type="String" />
+		<property symbolic-name="RouteCode" weap-property="routeCode" data-type="String" />
+		<property symbolic-name="SpouseSSN" weap-property="spouseSsn" data-type="String" />
+		<property symbolic-name="ProvNum" weap-property="providerNumber" data-type="String" />
+	</class>
+	<class name = "MW_MEDD_MEM">
+		<property symbolic-name="DocCntlNum" weap-property="dcn" data-type="String" />
+		<property symbolic-name="SYSID" weap-property="systemId" data-type="String" />
+		<property symbolic-name="OrigRcptDate" weap-property="origDate" data-type="Date" />
+		<property symbolic-name="DocType" weap-property="documentType" data-type="String" />
+		<property symbolic-name="SRCID" weap-property="sourceId" data-type="String" />
+		<property symbolic-name="AltID" weap-property="altId" data-type="String" />
+		<property symbolic-name="HostDate" weap-property="hostDate" data-type="Date" />
+		<property symbolic-name="INQID" weap-property="trackingNumber" data-type="String" />
+		<property symbolic-name="MbrNum" weap-property="memberNumber" data-type="String" />
+		<property symbolic-name="RegionCode" weap-property="stateCd" data-type="String" />
+		<property symbolic-name="ReturnReason" weap-property="returnReason" data-type="String" />
+		<property symbolic-name="RouteCode" weap-property="routeCode" data-type="String" />
+		<property symbolic-name="SpouseSSN" weap-property="spouseSsn" data-type="String" />
+		<property symbolic-name="ProvNum" weap-property="providerNumber" data-type="String" />
+	</class>
+	<class name = "IIW_INDIVIDUAL">
+		<property symbolic-name="BATCH_ID" weap-property="batchId" data-type="String" />
+		<property symbolic-name="BROKER_TIN" weap-property="brokerTin" data-type="String" />
+		<property symbolic-name="CERTIFICATE_NUM" weap-property="memberNumber" data-type="String" />
+		<property symbolic-name="DATE_CTL_NUM" weap-property="dateControlNumber" data-type="String" />
+		<property symbolic-name="ipdDocTypeId" weap-property="documentType" data-type="String" />
+		<property symbolic-name="LastName" weap-property="applicantLastName" data-type="String" />
+		<property symbolic-name="FirstName" weap-property="applicantFirstName" data-type="String" />
+		<property symbolic-name="MiddleInitial" weap-property="applicantMiddleInitial" data-type="String" />
+		<property symbolic-name="SSN" weap-property="applicantSsn" data-type="String" />
+		<property symbolic-name="F_DOCCLASSNAME" weap-property="fDocClassName" data-type="String" />
+	</class>
+	<class name = "IIW_SMALL_GROUP">
+		<property symbolic-name="BATCH_ID" weap-property="batchId" data-type="String" />
+		<property symbolic-name="BROKER_TIN" weap-property="brokerTin" data-type="String" />
+		<property symbolic-name="CERTIFICATE_NUM" weap-property="memberNumber" data-type="String" />
+		<property symbolic-name="DATE_CTL_NUM" weap-property="dateControlNumber" data-type="String" />
+		<property symbolic-name="ipdDocTypeId" weap-property="documentType" data-type="String" />
+		<property symbolic-name="EIN" weap-property="eid" data-type="String" />
+		<property symbolic-name="GROUP_NUM" weap-property="groupNumber" data-type="String" />
+		<property symbolic-name="LastName" weap-property="applicantLastName" data-type="String" />
+		<property symbolic-name="FirstName" weap-property="applicantFirstName" data-type="String" />
+		<property symbolic-name="MiddleInitial" weap-property="applicantMiddleInitial" data-type="String" />
+		<property symbolic-name="SSN" weap-property="applicantSsn" data-type="String" />
+	</class>
+	<class name = "SR_SECURE">
+		<property symbolic-name="DocType" weap-property="documentType" data-type="String" />
+		<property symbolic-name="SALES_CHNL" weap-property="salesChannel" data-type="String" />
+		<property symbolic-name="CERTIFICATE_NUM" weap-property="memberNumber" data-type="String" />
+		<property symbolic-name="FirstName" weap-property="applicantFirstName" data-type="String" />
+		<property symbolic-name="LastName" weap-property="applicantLastName" data-type="String" />
+		<property symbolic-name="CUST_ID" weap-property="hcid" data-type="String" />
+		<property symbolic-name="DCN" weap-property="dcn" data-type="String" />
+	</class>
+
+</class-mapping>
